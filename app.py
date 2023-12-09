@@ -36,7 +36,7 @@ Coronary artery disease (CAD) is the main cause of heart attack. A less common c
     
     st.subheader("Risk factors")
 
-    st.write("""Several health conditions, your lifestyle, and your age and family history can increase your risk for heart disease and heart attack. These are called risk factors. About half of all Americans have at least one of the three key risk factors for heart disease: high blood pressure, high blood cholesterol, and smoking.2
+    st.write("""Several health conditions, your lifestyle, and your age and family history can increase your risk for heart disease and heart attack. These are called risk factors. About half of all Americans have at least one of the three key risk factors for heart disease: high blood pressure, high blood cholesterol, and smoking.
 
 Some risk factors cannot be controlled, such as your age or family history. But you can take steps to lower your risk by changing the factors you can control.
 """)
@@ -147,9 +147,9 @@ In general, your heart attack symptoms should decrease as you receive treatment.
 
 Recovery from the treatments also varies, depending on the method of treatment. The average hospital stay for a heart attack is between four and five days. In general, expect to stay in the hospital for the following length of time:
 
-Medication only: People treated with medication only have an average hospital stay of approximately six days.
-PCI: Recovering from PCI is easier than surgery because it’s a less invasive method for treating a heart attack. The average length of stay for PCI is about four days.
-CABG: Recovery from heart bypass surgery takes longer because it’s a major surgery. The average length of stay for CABG is about seven days.
+- Medication only: People treated with medication only have an average hospital stay of approximately six days.
+- PCI: Recovering from PCI is easier than surgery because it’s a less invasive method for treating a heart attack. The average length of stay for PCI is about four days.
+- CABG: Recovery from heart bypass surgery takes longer because it’s a major surgery. The average length of stay for CABG is about seven days.
     """)
 
     st.subheader("How common are heart attacks?")
