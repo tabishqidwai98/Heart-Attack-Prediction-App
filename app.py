@@ -65,7 +65,7 @@ A team of people may help you through cardiac rehab, including your health care 
 if sidebar == "Dataset":
     st.write("Here's the dataset")
 
-    df = pd.read_csv("C:/Users/tabis/Documents/GitHub/Heart Attack App/Heart datasets/heart.csv")
+    df = pd.read_csv("C:/Users/tabis/heart-disease-prediction/heart.csv")
 
     st.table(df)
 
