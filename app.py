@@ -6,6 +6,7 @@ import joblib
 
 st.title("Heart attack prediction App")
 
+st.sidebar.header("Page sidebar")
 st.sidebar.image("py.jpg")
 sidebar = st.sidebar.selectbox(
     "The app features",
