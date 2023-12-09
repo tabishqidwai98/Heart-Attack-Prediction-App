@@ -130,9 +130,11 @@ if sidebar == "About":
     st.write("""
 After you’ve had a heart attack, you’re at a higher risk of a similar occurrence. Your healthcare provider will likely recommend follow-up monitoring, testing and care to avoid future heart attacks. Some of these include:
 
-Heart scans: Similar to the methods used to diagnose a heart attack, these can assess the effects of your heart attack and determine if you have permanent heart damage. They can also look for signs of heart and circulatory problems that increase the chance of future heart attacks.
-Stress test: These heart tests and scans that take place while you’re exercising can show potential problems that stand out only when your heart is working harder.
-Cardiac rehabilitation: These programs help you improve your overall health and lifestyle, which can prevent another heart attack.
+- Heart scans: Similar to the methods used to diagnose a heart attack, these can assess the effects of your heart attack and determine if you have permanent heart damage. They can also look for signs of heart and circulatory problems that increase the chance of future heart attacks.
+- Stress test: These heart tests and scans that take place while you’re exercising can show potential problems that stand out only when your heart is working harder.
+- Cardiac rehabilitation: These programs help you improve your overall health and lifestyle, which can prevent another heart attack.
+
+
 Additionally, you’ll continue to take medicines — some of the ones you received for immediate treatment of your heart attack — long-term. These include:
 
 - Beta-blockers.
