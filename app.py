@@ -135,9 +135,9 @@ Stress test: These heart tests and scans that take place while you’re exercisi
 Cardiac rehabilitation: These programs help you improve your overall health and lifestyle, which can prevent another heart attack.
 Additionally, you’ll continue to take medicines — some of the ones you received for immediate treatment of your heart attack — long-term. These include:
 
-Beta-blockers.
-ACE inhibitors.
-Aspirin and other blood-thinning agents.""")
+- Beta-blockers.
+- ACE inhibitors.
+- Aspirin and other blood-thinning agents.""")
 
     st.subheader("How soon after treatment will I feel better?")
     st.write("""
