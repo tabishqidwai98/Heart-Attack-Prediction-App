@@ -9,7 +9,7 @@ st.title("Heart attack prediction App")
 st.sidebar.image("py.jpg")
 sidebar = st.sidebar.selectbox(
     "The app features",
-    ("Main Page", "Dataset", "Analysis", "lets see possibilities")
+    ("Main Page", "Dataset", "Analysis", "lets see possibilities", "About")
 )
 
 if sidebar == "Main Page":
@@ -121,3 +121,35 @@ if sidebar == "lets see possibilities":
 
         except Exception as e:
             st.error(f"Error loading the model: {e}")
+
+if sidebar == "About":
+
+    st.header("About")
+
+    st.subheader("How soon after treatment will I feel better?")
+    st.write("""
+After you’ve had a heart attack, you’re at a higher risk of a similar occurrence. Your healthcare provider will likely recommend follow-up monitoring, testing and care to avoid future heart attacks. Some of these include:
+
+Heart scans: Similar to the methods used to diagnose a heart attack, these can assess the effects of your heart attack and determine if you have permanent heart damage. They can also look for signs of heart and circulatory problems that increase the chance of future heart attacks.
+Stress test: These heart tests and scans that take place while you’re exercising can show potential problems that stand out only when your heart is working harder.
+Cardiac rehabilitation: These programs help you improve your overall health and lifestyle, which can prevent another heart attack.
+Additionally, you’ll continue to take medicines — some of the ones you received for immediate treatment of your heart attack — long-term. These include:
+
+Beta-blockers.
+ACE inhibitors.
+Aspirin and other blood-thinning agents.""")
+
+    st.subheader("How soon after treatment will I feel better?")
+    st.write("""
+In general, your heart attack symptoms should decrease as you receive treatment. You’ll likely have some lingering weakness and fatigue during your hospital stay and for several days after. Your healthcare provider will give you guidance on rest, medications to take, etc.
+
+Recovery from the treatments also varies, depending on the method of treatment. The average hospital stay for a heart attack is between four and five days. In general, expect to stay in the hospital for the following length of time:
+
+Medication only: People treated with medication only have an average hospital stay of approximately six days.
+PCI: Recovering from PCI is easier than surgery because it’s a less invasive method for treating a heart attack. The average length of stay for PCI is about four days.
+CABG: Recovery from heart bypass surgery takes longer because it’s a major surgery. The average length of stay for CABG is about seven days.
+    """)
+
+    st.subheader("How common are heart attacks?")
+    st.write("""
+New heart attacks happen to about 635,000 people in the U.S. each year. About 300,000 people a year have a second heart attack. About 1 in 7 deaths in the U.S. is due to coronary heart disease, which includes heart attacks.""")
