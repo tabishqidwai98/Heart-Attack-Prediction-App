@@ -109,7 +109,7 @@ if sidebar == "lets see possibilities":
 
     if clicked:
         try:
-            model = joblib.load(open('E:/Project Work/Heart-Attack-Prediction-App/model.pkl', 'rb'))
+            model = joblib.load(open('Heart-Attack-Prediction-App/model.pkl', 'rb'))
 
             if model != None:
                 # Ensure the input features are in the correct format
