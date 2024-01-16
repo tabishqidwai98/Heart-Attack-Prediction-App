@@ -9,7 +9,7 @@
 
 - open the file, on top, click 'Run All'
 
-# Install requirements.txt
+## Install requirements.txt
 
 `pip install -r requirements.py`
 
