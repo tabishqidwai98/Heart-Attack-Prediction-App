@@ -2,7 +2,7 @@
  
 Clone the repo
 
-# Run command:
+## Run command:
 
 - git clone https://github.com/tabishqidwai98/Heart-Attack-Prediction-App.git
 
@@ -10,6 +10,6 @@ Clone the repo
 
 - open the file, on top, click 'Run All'
 
-# run App command 
+## run App command 
 
-- streamlit run app.py
+'streamlit run app.py'
