@@ -12,4 +12,4 @@ Clone the repo
 
 ## run App command 
 
-'streamlit run app.py'
+`streamlit run app.py`
